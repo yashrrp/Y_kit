@@ -1,0 +1,51 @@
+ /* ===============================
+    Experiment 7 CSS File
+    ========================= */
+ body {
+    font-family: Arial, sans-serif;
+    margin: 40px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+/* BLOCK EXAMPLE */
+.block-item {
+    background-color: #3498db;
+    color: white;
+    padding: 10px;
+    margin-bottom: 5px;
+    display: block;
+}
+
+/* INLINE EXAMPLE */
+.inline-item {
+    background-color: #2ecc71;
+    color: white;
+    padding: 6px 12px;
+    margin-right: 5px;
+    display: inline;
+}
+
+/* INLINE-BLOCK EXAMPLE */
+.inline-block-item {
+    background-color: #9b59b6;
+    color: white;
+    padding: 8px 15px;
+    margin-right: 5px;
+    display: inline-block;
+}
+
+/* FLOAT EXAMPLE */
+.float-item {
+    background-color: #e67e22;
+    color: white;
+    padding: 10px 15px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    float: left;
+}
+
+/*
