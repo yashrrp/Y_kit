@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background: #333;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+section {
+    padding: 50px;
+    text-align: center;
+}
+
+#home {
+    background: #f4f4f4;
+}
+
+#skills ul {
+    list-style: none;
+    padding: 0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: auto;
+}
+
+form input,
+form textarea {
+    margin: 10px 0;
+    padding: 10px;
+}
+
+button {
+    background: #333;
+    color: white;
+    padding: 10px;
+    border: none;
+}
+
+
+#home img {
+    width: 250px;
+    height: auto;
+}
+#home img {
+    width: 250px;
+
+    height: auto;
+  
+    border-radius: 50%;
+   
+    display: block;
+    margin: 20px auto;
+
+}
+
+#home button {
+    background: #333;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 15px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#home button a {
+    color: white;
+    text-decoration: none;
+}
